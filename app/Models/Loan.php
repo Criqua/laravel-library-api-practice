@@ -12,7 +12,7 @@ class Loan extends Model
         'libro_id',
         'usuario_id',
         'fecha_prestamo',
-        'fecha_devolucion',
+        'fecha_devolucion_esperada',
         'fecha_devolucion_real',
         'estado'
     ];

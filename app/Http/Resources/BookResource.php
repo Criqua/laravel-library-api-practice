@@ -27,7 +27,6 @@ class BookResource extends JsonResource
             'imagen_url' => $this->imagen_url,
             'created_at' => $this->created_at,
             'updated_at' => $this->updated_at,
-            
         ];
     }
 }

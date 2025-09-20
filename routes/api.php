@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\BookController;
 
-Route::apiResource('libros', BookController::class); // Acceder url: /api/libros
+use App\Http\Controllers\BookController;
+use App\Http\Controllers\LoanController;
+
+// Acceder desde /api/...
+Route::apiResource('libros', BookController::class);
+Route::apiResource('prestamos', LoanController::class);
